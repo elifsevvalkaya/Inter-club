@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Container, Form, Button, Card, Alert, Row, Col, Image, InputGroup } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { EyeFill, EyeSlashFill } from 'react-bootstrap-icons'; 
-import logo from '../assets/sabancı logo.jpeg';
+import logo from '../assets/sabanci-logo.jpeg';
 import '../pages/LoginPage.css'; 
 
 const LoginPage = () => {
