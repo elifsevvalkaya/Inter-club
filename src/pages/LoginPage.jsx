@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Container, Form, Button, Card, Alert, Row, Col, Image, InputGroup } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { EyeFill, EyeSlashFill } from 'react-bootstrap-icons';
-import logo from '/Users/betuliltir/interclub/src/asssets/sabancı logo.jpeg';
-import '/Users/betuliltir/interclub/src/pages/LoginPage.css'; 
+import { EyeFill, EyeSlashFill } from 'react-bootstrap-icons'; 
+import logo from '../assets/sabancı logo.jpeg';
+import '../pages/LoginPage.css'; 
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');
